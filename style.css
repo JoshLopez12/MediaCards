@@ -39,6 +39,8 @@ nav ul li {
   padding: .5em;  /*-- puts a little internal space around text --*/
   font-family: 'Oswald', sans-serif;
   font-size: 350%;
+  border: 3px solid #333;
+  text-shadow: 5px 5px 5px #888888;
 }
 footer {
   margin-top: 4em;  /*-- adds big space above the footer --*/
@@ -68,9 +70,10 @@ footer {
   .cards-item {width: 25%;} /*-- sets card width to one-quarter of the page --*/
 }
 .card {
-  border: 1px solid #dadada; /*-- adds a border around card items --*/
-  background-color: white;
+  border: 3px solid #333; /*-- adds a border around card items --*/
+  background-color: lightgrey;
   border-radius: 25px;
+  box-shadow: 5px 5px 5px #888888;
 }
 .card-image { /*-- general styles for card images --*/
   background-size: cover;  /*-- sets images size to cover --*/
@@ -79,6 +82,7 @@ footer {
   filter: contrast(50%); /*-- adds 70% contrast filter to image --*/
   transition: filter 0.3s ease-in;  /*-- sets filter transition speed and easing --*/
   border-radius: 25px;
+  border: 2px solid #333;
 }
 .card:hover .card-image {
     filter: contrast(100%);  /*-- transitions to 100% filter on hover --*/
@@ -105,6 +109,9 @@ footer {
   padding: .5rem;  /*-- a little internal space --*/
   margin: 1em;
   font-family: 'Robato', sans-serif;
+  background-color: #87CEFA;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #888888;
 }
 /*-- IMAGE BACKGROUNDS --*/
 .random1 {
